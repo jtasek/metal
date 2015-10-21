@@ -1,2 +1,2 @@
 # metal
-ES2015 boilerplate
+ES2015 boilerplate with hot reloading and tests.

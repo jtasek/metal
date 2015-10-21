@@ -10,13 +10,15 @@
     "rebuild": "npm run build:webpack",
     "start": "open http://localhost:3000 && node server.js",
     "lint": "eslint src",
-    "test": "test"
+    "test": "babel-node test/test.js | faucet"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jtasek/metal.git"
   },
   "keywords": [
+    "babel",
+    "express"
     "react",
     "reactjs",
     "boilerplate",
@@ -24,7 +26,8 @@
     "reload",
     "hmr",
     "webpack",
-    "babel"
+    "tape",
+    "test"
   ],
   "author": "Jakub Tašek",
   "license": "MIT",
@@ -44,6 +47,7 @@
     "react-transform-hmr": "^1.0.1",
     "redbox-react": "^1.1.1",
     "rimraf": "^2.4.3",
+    "tape": "^4.2.2",
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.4.1"
