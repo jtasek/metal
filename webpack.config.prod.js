@@ -1,7 +1,7 @@
-var path = require('path');
-var webpack = require('webpack');
+import path from 'path';
+import webpack from 'webpack';
 
-module.exports = {
+export default {
   devtool: 'source-map',
   entry: [
     './src/main'
@@ -9,7 +9,8 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/static/'
+    publicPath: '/',
+    port: 3000
   },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
