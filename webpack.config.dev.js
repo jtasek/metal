@@ -21,8 +21,14 @@ export default {
   module: {
     loaders: [{
       test: /\.js?$/,
-      loaders: ['babel'],
+      loader: 'babel',
       include: path.join(__dirname, 'src')
+    }, {
+      test: /\.css$/,
+      loader: 'style!css?modules&localIdentName=[name]---[local]---[hash:base64:5]'
     }]
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   }
 };
