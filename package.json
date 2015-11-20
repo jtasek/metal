@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
+    "build:webpack": "NODE_ENV=production webpack --config webpack.prod.config.js",
     "build": "npm run clean && npm run build:webpack",
     "rebuild": "npm run build:webpack",
     "start": "open http://localhost:3000 && babel-node server.js",
