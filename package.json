@@ -21,16 +21,19 @@
     "babel-node",
     "express",
     "react",
+    "react-transform",
     "reactjs",
     "boilerplate",
     "hot",
     "reload",
     "hmr",
+    "live",
+    "edit",
     "webpack",
     "tape",
     "test"
   ],
-  "author": "Jakub Tašek",
+  "author": "Jakub Tašek <jakub.tasek@gmail.com> (http://github.com/jtasek)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jtasek/metal/issues"
