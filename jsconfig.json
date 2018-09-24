@@ -1,12 +1,7 @@
 {
-    "compilerOptions": {
-        "target": "ES6",
-        "module": "commonjs",
-        "js": "react"
-    },
-    "exclude": [
-        "build",
-        "dist",
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs"
+  },
+  "exclude": ["build", "dist", "node_modules"]
 }
