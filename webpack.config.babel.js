@@ -1,5 +1,6 @@
 import path from 'path'
 import webpack from 'webpack'
+import HtmlWebpackPlugin from 'html-webpack-plugin'
 
 export default {
   mode: 'development',
@@ -15,6 +16,12 @@ export default {
     publicPath: '/'
   },
   plugins: [
+    new HtmlWebpackPlugin({
+      title:
+        'Minimalistic React Boilerplate with Hot Reloading and Express Server',
+      template: './src/index.html',
+      filename: './index.html' // relative to root of the application
+    }),
     new webpack.HotModuleReplacementPlugin(), // enable HMR globally
     new webpack.NamedModulesPlugin() // prints more readable module names in the browser console on HMR updates
   ],

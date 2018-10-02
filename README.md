@@ -23,7 +23,7 @@
 `yarn run start` or `npm run start`
 
 - Build app continously (HMR enabled)
-- App served @ `http://localhost:8080`
+- App served @ `http://localhost:3000`
 
 **Production**
 
@@ -41,7 +41,7 @@
 | `yarn run publish`      | Build app to `/dist/`                                                     |
 | `yarn run check-format` | Prints the filenames of files that are different from Prettier formatting |
 | `yarn run format`       | Format code and write changes                                             |
-| `yarn run start`        | Build app continously (HMR enabled) and serve @ `http://localhost:8080`   |
+| `yarn run start`        | Build app continously (HMR enabled) and serve @ `http://localhost:3000`   |
 | `yarn run serve`        | Build app once (HMR disabled) and serve @ `http://localhost:3000`         |
 | `yarn run test`         | Run tests                                                                 |
 

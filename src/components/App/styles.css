@@ -1,5 +1,12 @@
+body {
+  margin: 0;
+}
+
 .app {
   background-color: #f06;
-  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
   padding: 20px;
+  text-align: center;
 }
