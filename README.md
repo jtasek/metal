@@ -25,27 +25,27 @@
 - Build app continously (HMR enabled)
 - App served @ `http://localhost:3000`
 
-**Production**
+<!-- **Production**
 
 `yarn run start-prod` or `npm run start-prod`
 
 - Build app once (HMR disabled)
 - App served @ `http://localhost:3000`
 
----
+--- -->
 
 **All commands**
 
-| Command                 | Description                                                               |
-| ----------------------- | ------------------------------------------------------------------------- |
-| `yarn run publish`      | Build app to `/dist/`                                                     |
-| `yarn run check-format` | Prints the filenames of files that are different from Prettier formatting |
-| `yarn run format`       | Format code and write changes                                             |
-| `yarn run start`        | Build app continously (HMR enabled) and serve @ `http://localhost:3000`   |
-| `yarn run serve`        | Build app once (HMR disabled) and serve @ `http://localhost:3000`         |
-| `yarn run test`         | Run tests                                                                 |
+| Command          | Description                                                             |
+| ---------------- | ----------------------------------------------------------------------- |
+| `yarn run build` | Build app to `/dist/` folder                                            |
+| `yarn run lint`  | Check code formatting                                                   |
+| `yarn run start` | Build app continously (HMR enabled) and serve @ `http://localhost:3000` |
+| <!--             | `yarn run serve`                                                        | Build app once (HMR disabled) and serve @ `http://localhost:3000` | --> |
+| `yarn run test`  | Run tests                                                               |
 
 
 ## See also
 
 - [Isomorphic Webapp Starter](https://github.com/vikpe/isomorphic-webapp-starter)
+- [Creact React apps with no build configuration](https://github.com/facebook/create-react-app)
