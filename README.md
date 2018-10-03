@@ -25,24 +25,24 @@
 - Build app continously (HMR enabled)
 - App served @ `http://localhost:3000`
 
-<!-- **Production**
+**Production**
 
-`yarn run start-prod` or `npm run start-prod`
+`yarn run serve` or `npm run serve`
 
 - Build app once (HMR disabled)
 - App served @ `http://localhost:3000`
 
---- -->
+!TODO!
 
 **All commands**
 
-| Command          | Description                                                             |
-| ---------------- | ----------------------------------------------------------------------- |
-| `yarn run build` | Build app to `/dist/` folder                                            |
-| `yarn run lint`  | Check code formatting                                                   |
-| `yarn run start` | Build app continously (HMR enabled) and serve @ `http://localhost:3000` |
-| <!--             | `yarn run serve`                                                        | Build app once (HMR disabled) and serve @ `http://localhost:3000` | --> |
-| `yarn run test`  | Run tests                                                               |
+| Command          | Description                                                              |
+| ---------------- | ------------------------------------------------------------------------ |
+| `yarn run build` | Build app to `/dist/` folder                                             |
+| `yarn run lint`  | Check code formatting                                                    |
+| `yarn run start` | Build app continously (HMR enabled) and serve @ `http://localhost:3000`  |
+| `yarn run serve` | Build app once (HMR disabled) and serve @ `http://localhost:3000` (TODO) |
+| `yarn run test`  | Run tests                                                                |
 
 
 ## See also
